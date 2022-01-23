@@ -1,0 +1,54 @@
+body{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+h1, h6{
+  padding: 10px;
+  margin: 0;
+  background: cyan;
+  color: rgba(0,0,0,0.75);
+}
+
+h6{
+  font-size: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.array-container {
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+}
+
+.array-bar-container{
+  box-sizing: border-box;
+  padding: 1rem;
+}
+
+.array-bar {
+  width: 3px;
+  display: inline-block;
+  margin: 0 1px;
+}
+
+button{
+  padding: 0.25rem;
+  margin: 1rem 0.5rem;
+  font-size: 1rem;
+  background: lightslategrey;
+  border: 2px solid cyan;
+  outline: none;
+  transition: 0.25s;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  color: lightcyan;
+}
+
+button:hover{
+  background: cyan;
+  color: darkslategrey;
+}
